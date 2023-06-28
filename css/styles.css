@@ -1,0 +1,128 @@
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: azure;
+}
+body{
+    font-family: "Montserrat";
+}
+.container{
+    padding-left: 0;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 3rem;
+}
+.image-phone{
+    width:60%;
+    transform: rotate(25deg);
+    height: 90%;
+    position: relative;
+    left: 20%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+#features{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+.fa-solid{
+    font-size: 5.5rem;
+    padding-bottom: 10%;
+    color: #ef8172;
+    
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+.features-row{
+    padding: 0 10%;
+    text-align: center;
+}
+.featuresp{
+    width:80%;
+    padding-left: 20%;
+    font-weight: lighter;
+    color: #8f8f8f;
+    height: 1.5;
+}
+/* .featuresh3{
+    text-align: center;
+} */ 
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:aliceblue;
+}
+.testimonials-h2{
+    height: 2;
+    font-size: 3rem;
+    padding: 7% 15%;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    padding-right: 15px;
+}
+#press{
+    background-color: #ef8172;
+    padding: 7% 10%;
+    text-align: center;
+}
+.row{
+    padding-top: 1%;
+}
+@media (max-width:1310px){
+    #title{
+        text-align: center;
+    }
+    .image-phone{
+        position:static;
+        transform: rotate(0);
+
+    }
+}
+#cta{
+   background-color: #ff4c68;
+   padding:7% 15%;
+   text-align: center;
+   font-family: "montserrat";
+   color: aliceblue;
+}
+.ctah3{
+    font-size: 3rem;
+    height: 1.5;
+    padding:0 15% 7% 15%;
+}
+.btncta1{
+    position:relative;
+    right:2%;
+}
+.btncta2{
+    position: relative;
+    left:2%;
+}
+#footer{
+    text-align: center;
+    padding: 7% 0 4% 0;
+    font-size: 1rem;
+    color:grey;
+}
+.social-icon{
+    margin: 1rem;
+}
+
